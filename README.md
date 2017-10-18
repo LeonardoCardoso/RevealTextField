@@ -1,12 +1,12 @@
 ## RevealTextField
 
-![iOS](Images/static.gif)
+![iOS](Assets/jif.gif)
 
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://github.com/LeonardoCardoso/RevealTextField#requirements-and-details)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-red.svg)](https://github.com/LeonardoCardoso/RevealTextField#cocoapods)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-red.svg)](https://github.com/LeonardoCardoso/RevealTextField#cocoapods)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg)](https://github.com/LeonardoCardoso/RevealTextField#carthage)
 
-> Control Center Slider
+> Simple extension to add a reveal button to your boring UITextField
 
 - [Requirements](#requirements)
 - [Installation](#installation)
@@ -29,7 +29,7 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build RevealTextField 1.0.0+.
+> CocoaPods 1.1.0+ is required to build RevealTextField 1.0.1+.
 
 To integrate RevealTextField into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -38,7 +38,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'RevealTextField', '~> 1.0.0'
+pod 'RevealTextField', '~> 1.0.1'
 ```
 
 Then, run the following command:
@@ -61,7 +61,7 @@ $ brew install carthage
 To integrate RevealTextField into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "LeonardoCardoso/RevealTextField" ~> 1.0.0
+github "LeonardoCardoso/RevealTextField" ~> 1.0.1
 ```
 
 ### Manually
@@ -84,7 +84,7 @@ passwordTextField.revealable() // <<---
 passwordTextField.revealable(secureImage: UIImage?,     // <<--- isSecureTextEntry == true. 
                              unsecureImage: UIImage?,   // <<--- isSecureTextEntry == false.
                              tintColor: UIColor?,       // <<--- image color, default is black.
-                             dimension: CGFloat?)       // <<--- image dimension, default is 40.
+                             dimension: CGFloat?)       // <<--- image dimension, default is 30.
 ```
 
 ### Functions

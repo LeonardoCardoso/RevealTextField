@@ -1,12 +1,12 @@
 # Change Log
 
-#### 0.x Releases
-- `0.0.x` Releases - [1.0.0](#100)
+#### 1.x Releases
+- `1.0.x` Releases - [1.0.1](#101)
 
 ---
 
-## [0.0.1](https://github.com/LeonardoCardoso/RevealTextField/releases/tag/0.0.1)
-Released on ????-??-??.
+## [1.0.1](https://github.com/LeonardoCardoso/RevealTextField/releases/tag/1.0.1)
+Released on 2017-10-18.
 
 #### Added
 - Initial release of RevealTextField.
