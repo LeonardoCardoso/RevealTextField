@@ -21,7 +21,8 @@ class RevealTextFieldTests: XCTestCase {
     
     func testRightView() {
         textField?.revealable(secureImage: nil,
-                              unsecureImage: nil)
+                              unsecureImage: nil,
+                              allowLargeImages: true)
         XCTAssert(textField?.rightView != nil)
 
         textField?.revealable(secureImage: nil,

@@ -18,12 +18,13 @@ extension UITextField {
     public func revealable(secureImage: UIImage?,
                            unsecureImage: UIImage?,
                            tintColor: UIColor = .black,
-                           dimension: CGFloat = 30) {
+                           dimension: CGFloat = 30,
+                           allowLargeImages: Bool = false) {
 
         rtf_secureImage = secureImage?.withRenderingMode(.alwaysTemplate)
         rtf_unsecureImage = unsecureImage?.withRenderingMode(.alwaysTemplate)
 
-        let safeDimension = dimension > frame.size.height ? frame.size.height : dimension
+        let safeDimension = dimension > frame.size.height && !allowLargeImages ? frame.size.height : dimension
         let newFrame = CGRect(x: 0, y: 0, width: safeDimension, height: safeDimension)
 
         let revealButton = UIButton(frame: newFrame)
