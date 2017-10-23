@@ -3,7 +3,7 @@
 ![iOS](Assets/jif.gif)
 
 [![Platform](https://img.shields.io/badge/platform-iOS-orange.svg)](https://github.com/LeonardoCardoso/RevealTextField#requirements-and-details)
-[![CocoaPods](https://img.shields.io/badge/pod-v1.0.1-red.svg)](https://github.com/LeonardoCardoso/RevealTextField#cocoapods)
+[![CocoaPods](https://img.shields.io/badge/pod-v1.0.3-red.svg)](https://github.com/LeonardoCardoso/RevealTextField#cocoapods)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg)](https://github.com/LeonardoCardoso/RevealTextField#carthage)
 
 > Simple extension to add a reveal button to your boring UITextField
@@ -29,7 +29,7 @@
 $ gem install cocoapods
 ```
 
-> CocoaPods 1.1.0+ is required to build RevealTextField 1.0.1+.
+> CocoaPods 1.1.0+ is required to build RevealTextField 1.0.3+.
 
 To integrate RevealTextField into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
@@ -38,7 +38,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'RevealTextField', '~> 1.0.1'
+pod 'RevealTextField', '~> 1.0.3'
 ```
 
 Then, run the following command:
@@ -61,7 +61,7 @@ $ brew install carthage
 To integrate RevealTextField into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "LeonardoCardoso/RevealTextField" ~> 1.0.1
+github "LeonardoCardoso/RevealTextField" ~> 1.0.3
 ```
 
 ### Manually

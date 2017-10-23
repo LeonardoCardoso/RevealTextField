@@ -1,12 +1,12 @@
 # Change Log
 
 #### 1.x Releases
-- `1.0.x` Releases - [1.0.1](#101) | [1.0.2](#102)
+- `1.0.x` Releases - [1.0.1](#101) | [1.0.3](#103)
 
 ---
 
-## [1.0.2](https://github.com/LeonardoCardoso/RevealTextField/releases/tag/1.0.2)
-Released on 2017-10-18.
+## [1.0.3](https://github.com/LeonardoCardoso/RevealTextField/releases/tag/1.0.3)
+Released on 2017-10-23.
 
 #### Added
 - Allow images larger than than UITextField height.

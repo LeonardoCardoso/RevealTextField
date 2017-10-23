@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
  s.name = 'RevealTextField'
- s.version = '1.0.2'
+ s.version = '1.0.3'
  s.license = { :type => "MIT", :file => "LICENSE" }
  s.summary = 'Simple extension to add a reveal button to your boring UITextField'
  s.homepage = 'https://github.com/LeonardoCardoso/RevealTextField'
