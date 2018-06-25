@@ -96,3 +96,6 @@ passwordTextField.revealable(secureImage: UIImage?,     // <<--- isSecureTextEnt
 ## License
 
 RevealTextField is released under the MIT license. See [LICENSE](https://github.com/LeonardoCardoso/RevealTextField/blob/master/LICENSE) for details.
+
+### Follow me for the latest updates
+<a href="https://goo.gl/UC8B8o"><img src="https://i.imgur.com/pac7UMq.png/" width="179" height="26"></a>
